@@ -1,0 +1,21 @@
+{
+  "name": "convert-media-to-heic",
+  "version": "1.0.0",
+  "description": "Converts a media library with images and videos into more efficient formats without noticable quality loss nor loosing meta data.",
+  "main": "convert.js",
+  "type": "module",
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "author": "Jakob Schröter",
+  "license": "MIT",
+  "dependencies": {
+    "exiftool-vendored": "^21.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "volta": {
+    "node": "18.14.1"
+  }
+}
